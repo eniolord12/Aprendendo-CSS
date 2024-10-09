@@ -1,0 +1,56 @@
+h1 {
+    color: rgb(255, 225, 0);
+    background-color: #000;
+}
+
+.voltar img {
+    height: 22px;
+}
+
+.voltar a {
+    background: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.corpo {
+    background: rgb(123, 123, 65);
+    color: beige;
+}
+
+.fundo {
+    background-image: url("../img/cidade.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+
+.fundo1 {
+    background-image: url("../img/fundo.jpg");
+    background-position: left;
+    background-repeat: repeat;
+    background-size: contain;
+    width: auto;
+    height: 500px;
+}
+
+.fundo11 {
+    background-image: url("../img/fundo.jpg");
+    background-color: #000;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+    height: 500px;
+}
+
+.fundo2 {
+    background: url("../img/natureza.jpg") no-repeat center;
+    background-size: cover;
+    width: 500px;
+    height: 750px;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.topo {
+    text-align: center;
+
+    background: url("../img/fundoRoxo.jpg") center no-repeat;
+    height: 150px;
+    background-size: cover;
+}
+
+.topo h1 {
+    font-size: 30px;
+    color: rgb(255, 253, 253);
+    margin: auto;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.topo h2 {
+    font-size: 50px;
+    color: rgb(226, 204, 7);
+    border: solid;
+    width: 900px;
+    margin: auto;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.corpo {
+    background: black;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+}
+
+.corpo p {
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    margin-bottom: 30px;
+}
+
+.menu h2 {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid;
+}
+
+.menu a {
+    background: rgb(83, 80, 80);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px;
+    margin: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    font-size: 12;
+
+}
+
+.menu a:hover {
+    background: black;
+    padding: 10px;
+    margin-left: 10px;
+}

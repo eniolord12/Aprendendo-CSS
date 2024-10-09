@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(255, 225, 0);
+}
+
+.voltar img {
+    height: 22px;
+}
+
+.voltar a {
+    background: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.corpo {
+    color: red;
+}
