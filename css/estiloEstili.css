@@ -201,10 +201,20 @@ h1 {
 
 .grupo-botoes4 {
     text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 10px;
 }
 
 .grupo-botoes5 {
     text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a.botao1 {
@@ -246,7 +256,7 @@ a.botao3:hover {
 
 a.botao4 {
     text-decoration: none;
-    color: #130d37;
+    color: #ffffff;
     font-size: 18px;
 }
 
@@ -255,8 +265,30 @@ a.botao4:hover {
     font-weight: bold;
 }
 
+a.botao4-3 {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    border-bottom: 2px #ffffff solid;
+}
+
+a.botao4-3:hover {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 a.botao5 {
-    cursor: help;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 a.botao5:hover {}
+
+a.botao5-3 {
+    background: #130d37;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+a.botao5-3:hover {}
