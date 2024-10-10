@@ -6,17 +6,18 @@
 
 body {
     margin: 0 auto;
-    margin-top: 10px;
+
 }
 
 h1 {
     color: rgb(255, 225, 0);
-    background-color: #000;
+    background-color: #2F2F2F;
     padding: 6px 20px 6px;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-size: 35px;
     font-family: "Protest Strike", sans-serif;
+    margin-top: 0px;
 }
 
 .corpo {
@@ -37,33 +38,36 @@ h1 {
     font-weight: bold;
 }
 
+
+
 .voltar {
-    padding: 5px;
+    background: #262626 center no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
-.voltar img {
-    height: 22px;
-}
+.img-link {
+    width: 28px;
+    height: auto;
+    padding-top: 10px;
 
-.voltar img:hover {
-    margin-right: 1200px;
-    padding: 10px;
 }
 
 .voltar a {
-    background: #000000;
-    text-decoration: none;
     color: #ffffff;
-    border-radius: 5px;
-    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.voltar a:hover {
-    background: rgb(192, 192, 192);
-    color: #000;
-    border-right: 5px rgb(192, 192, 192);
-    padding: 15px;
+.voltar .redes-sociais {
+    margin-left: 890px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 
 .fundo {
     background: url("../img/cidade.jpg") bottom no-repeat;
@@ -277,9 +281,13 @@ a.botao4-3:hover {
     font-weight: bold;
 }
 
-a.botao5 {
-    text-decoration: none;
-    color: #ffffff;
+
+.botao5 {
+    width: 32px;
+    height: 32px;
 }
 
-a.botao5:hover {}
+.botao5:hover {
+    width: 50px;
+    height: 50px;
+}
