@@ -283,3 +283,11 @@ a.botao5 {
 }
 
 a.botao5:hover {}
+
+footer {
+    background: #333333;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px 0px;
+    color: #fff;
+}

@@ -84,3 +84,11 @@ h1 {
     height: 750px;
     border: 10px outset rgb(255, 0, 0);
 }
+
+footer {
+    background: #333333;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px 0px;
+    color: #fff;
+}

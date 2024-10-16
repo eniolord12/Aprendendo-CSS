@@ -98,3 +98,11 @@ h1 {
     margin-left: 10px;
     margin-bottom: 10px;
 }
+
+footer {
+    background: #333333;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px 0px;
+    color: #fff;
+}

@@ -6,6 +6,7 @@
 
 body {
     margin: 0 auto;
+    background: #141414;
 }
 
 .topo {
@@ -32,35 +33,85 @@ body {
     font-family: "Protest Strike", sans-serif;
 }
 
-.corpo {
-    background: black;
+.card-corpo {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.card-corpo .corpo {
+    display: inline-block;
+    width: 500px;
+    background: #1F1F1F;
     border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 10px;
+    padding: 18px 20px;
 }
 
-.corpo p {
+.paragrafo {
+    color: #fff;
+}
+
+article {
+    display: inline-block;
     text-align: center;
-    color: white;
+    width: 100%;
+    padding: 20px 0;
 }
 
-.menu {
-    margin-bottom: 30px;
+article .menu {
+    display: inline-block;
+    width: 360px;
+    background: #1F1F1F;
+    padding: 30px 20px;
+    border-radius: 20px;
 }
 
-.menu h2 {
+article .menu ul {
+    list-style-type: none;
+
+}
+
+article .menu .titulos {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+article .menu h2 {
     font-size: 30px;
-    text-align: center;
-    border-bottom: 2px solid;
+    color: #fff;
 }
 
-.menu a {
-    background: rgb(83, 80, 80);
+article .menu h3 {
+    font-size: 20px;
+    color: #C4F82A;
+}
+
+article .menu p {
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    color: #B0B0B0;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+article .menu nav {
+    max-height: 360px;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+article .menu a {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    background: #333333;
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 7px;
@@ -68,11 +119,25 @@ body {
     margin-bottom: 5px;
     border-radius: 8px;
     font-size: 12;
-
+    font-weight: bold;
 }
 
-.menu a:hover {
-    background: black;
-    padding: 10px;
-    margin-left: 10px;
+article .menu a:hover {
+    background: #C4F82A;
+    color: #333333;
+    padding: 9px;
+}
+
+footer {
+    background: #333333;
+    text-align: center;
+    margin: 0px 0px;
+    margin-top: 10px;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #C4F82A;
 }

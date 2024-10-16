@@ -111,3 +111,11 @@ h1 {
     border: 10px red solid;
     border-radius: 20px;
 }
+
+footer {
+    background: #333333;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px 0px;
+    color: #fff;
+}
